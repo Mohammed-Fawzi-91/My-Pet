@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Header from './components/Header';
+import Footer from './components/Footer';
+import MainPage from './pages/MainPage';
+import MainPetPage from './pages/MainPetPage';
+import './App.css'; // Import any global styles
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>,mgf/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="google.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          efgrgtb
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+     
+        <Routes>
+          <Route exact path="/" element={<MainPage />} />
+          <Route  path="/MainPetPage" element={<MainPetPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
