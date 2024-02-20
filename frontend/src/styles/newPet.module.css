@@ -1,0 +1,64 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(169.6px, 1fr));
+    gap: 12px;
+  }
+  
+  .addIconComp {
+    height: 160px;
+    width: 160px;
+    background-color: rgb(187, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    margin: 10px;
+
+    
+  }
+  .addIconComp:hover {
+    transform: scale(1.2); /* Increase the size of the icon on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    background-color: rgb(208, 205, 205);
+
+  }
+  
+  .addIcon {
+    font-size: 55px;
+
+
+  }
+  .addIcon:hover {
+    transform: scale(1.2); /* Increase the size of the icon on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .mainDiv {
+    display: flex;
+    justify-content: center;
+  }
+  .newPet{
+    width:100%;
+    background-color: rgb(208, 205, 205);
+    margin: 0px;
+    border-radius: 01%;
+
+
+  }
+  .newPet:hover {
+    transform: scale(1); /* Increase the size of the icon on hover */
+  }
+  
+  @media screen and (max-width: 600px) {
+    .gridContainer {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      
+    
+    }
+    .addIconComp {
+        margin: auto;
+
+
+
+    }
+  }

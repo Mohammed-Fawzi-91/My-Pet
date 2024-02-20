@@ -7,7 +7,7 @@ function MainPage() {
 
   return (
     <div>
-      <Login text="Login" onClick={handleLogin} />
+      <Login text="Lfogin" onClick={handleLogin} />
       <h1>jergkjerg</h1>
     </div>
   );
