@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Fluffy",
+      "species": "Cat",
+      "age": 3
+    },
+    {
+      "name": "Buddy",
+      "species": "Dog",
+      "age": 5
+    },
+    {
+      "name": "Tweety",
+      "species": "Bird",
+      "age": 2
+    }
+  ]
