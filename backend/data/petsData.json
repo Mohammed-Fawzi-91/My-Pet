@@ -1,17 +1,32 @@
 [
-    {
-      "name": "Fluffy",
-      "species": "Cat",
-      "age": 3
-    },
-    {
-      "name": "Buddy",
-      "species": "Dog",
-      "age": 5
-    },
-    {
-      "name": "Tweety",
-      "species": "Bird",
-      "age": 2
-    }
-  ]
+  {
+    "name": "",
+    "species": "",
+    "age": ""
+  },
+  {
+    "name": "",
+    "species": "",
+    "age": ""
+  },
+  {
+    "name": "",
+    "species": "",
+    "age": ""
+  },
+  {
+    "name": "",
+    "species": "",
+    "age": ""
+  },
+  {
+    "name": "dxdxerg",
+    "species": "grtg",
+    "age": "4543"
+  },
+  {
+    "name": "",
+    "species": "",
+    "age": ""
+  }
+]

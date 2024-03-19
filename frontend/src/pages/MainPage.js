@@ -8,7 +8,7 @@ function MainPage() {
   return (
     <div>
       <Login text="Lfogin" onClick={handleLogin} />
-      <h1>jergkjerg</h1>
+      <h1>Welcome to My pet App</h1>
     </div>
   );
 }

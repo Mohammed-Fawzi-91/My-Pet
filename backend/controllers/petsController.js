@@ -25,7 +25,7 @@ const getPets = (req, res) => {
 };
 
 const addPet = (req, res) => {
-/*  const { name, species, age } = req.body;
+ const { name, species, age } = req.body;
 
   fs.readFile(petsDataPath, (err, data) => {
     if (err) {
@@ -35,6 +35,8 @@ const addPet = (req, res) => {
 
     const pets = JSON.parse(data);
     const newPet = { name, species, age };
+    console.log(name)
+
     pets.push(newPet);
 
     fs.writeFile(petsDataPath, JSON.stringify(pets, null, 2), (err) => {
@@ -44,7 +46,7 @@ const addPet = (req, res) => {
       }
       res.status(201).json(newPet);
     });
-  });*/
+  });
   console.log("he")
 };
 
