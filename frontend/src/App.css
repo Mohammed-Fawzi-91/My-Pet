@@ -54,3 +54,38 @@ Footer{
 
 }
 
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: -350px; /* Initially hide the sidebar */
+  transition: left 0.3s ease;
+}
+.menu{
+  font-size: xx-large;
+  color: #fff;
+}
+
+.sidebar.open {
+  left: 0; /* Show the sidebar when it's open */
+}
+
+.toggle-btn {
+  background: transparent;
+  border: none;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.burger-menu {
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  margin: 6px 0;
+}

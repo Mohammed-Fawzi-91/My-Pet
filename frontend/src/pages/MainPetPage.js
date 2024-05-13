@@ -9,17 +9,15 @@ const MainPetPage = () => {
   const path = "http://localhost:3001";
 
   useEffect(() => {
-    // Fetch pets data from the backend when the component mounts
     
     fetchPets();
 
-  }, []); // Only run this effect once when the component mounts
+  }, []); 
 
   const fetchPets = async () => {
     try {
       setLoading(true);
 
-      // Make a GET request to fetch the list of pets from the backend
       const response = await axios.get(`${path}/api/pets`);
       console.log("response.data")
 
@@ -35,13 +33,10 @@ const MainPetPage = () => {
 
   const handleAddPet = async (newPet) => {
     try {
-      // Make a POST request to add a new pet
       const response = await axios.post(`${path}/api/pets`, newPet);
-      // Update the pets state with the newly added pet
       setPets([...pets, response.data]);
     } catch (error) {
       console.error('Error adding pet:', error);
-      // Handle error, such as displaying an error message to the user
     }
   };
 

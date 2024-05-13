@@ -8,7 +8,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import MainPage from './pages/MainPage';
 import MainPetPage from './pages/MainPetPage';
-import './App.css'; // Import any global styles
+import './App.css';
 
 function App() {
   return (
